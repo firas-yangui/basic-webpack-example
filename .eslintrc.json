@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "extends": "eslint:recommended",
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": 1,
+        "no-debugger": 1,
+        "no-multi-spaces": 1,
+        "no-duplicate-case": 1,
+        "no-inner-declarations": [1, "functions"],
+        "no-irregular-whitespace": 1,
+        "wrap-iife": 1
+    }
+}

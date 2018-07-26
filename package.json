@@ -1,0 +1,33 @@
+{
+  "name": "webpack-tuto",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "app.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.2.0",
+    "eslint-loader": "^2.1.0",
+    "style-loader": "^0.21.0",
+    "timestamp-webpack-plugin": "^0.2.3",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_dev": "webpack-dev-server -d",
+    "start_prod": "webpack-dev-server",
+    "build_prod": "webpack",
+    "build_dev": "webpack -d",
+    "lint": "eslint ."
+  },
+  "author": "firas yangui",
+  "license": "ISC"
+}
